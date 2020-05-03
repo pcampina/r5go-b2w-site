@@ -1,0 +1,66 @@
+section.section:nth-child(2n+2) {
+  background: #f4f4f4;
+}
+
+section.section .container {
+  display: flex;
+  padding: 60px 0;
+  margin-bottom: 10px;
+}
+
+section.section:last-child .container {
+  margin-bottom: 0;
+}
+
+section.section .container.reverse {
+  flex-flow: row-reverse;
+}
+
+@media screen and (max-width: 768px) {
+
+  section.section .container,
+  section.section .container.reverse {
+    flex-direction: column;
+  }
+}
+
+section.section .container .image {
+  flex: 0.3;
+}
+
+section.section .container .image img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  section.section .container img {
+    padding: 0 10px 20px;
+  }
+}
+
+section.section .container .text-content {
+  display: flex;
+  flex: 0.7;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  section.section .container .text-content {
+    padding: 0 40px;
+  }
+}
+
+section.section .container .text-content h3 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+section.section .container .text-content p {
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-bottom: 30px;
+}

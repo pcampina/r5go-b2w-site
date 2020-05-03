@@ -1,0 +1,63 @@
+section.fullbanner-box {
+  position: relative;
+  display: flex;
+  background: var(--bg-banner-color);
+  height: 600px;
+  align-items: center;
+}
+
+section.fullbanner-box::before {
+  position: absolute;
+  display: flex;
+  content: "";
+  background-image: url('../assets/images/fullbanner.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  opacity: 0.3;
+  filter: grayscale(1);
+  filter: blur(1px);
+  z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+  section.fullbanner-box,
+  section.fullbanner-box::before {
+    height: 300px;
+  }
+}
+
+section.fullbanner-box .container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  section.fullbanner-box .container {
+    padding: 0 30px;
+  }
+}
+
+section.fullbanner-box .container .message {
+  z-index: 1;
+  color: white;
+}
+
+section.fullbanner-box .container .message h1 {
+  font-size: 5em;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  section.fullbanner-box .container .message h1 {
+    font-size: 3em;
+  }
+}
+
+section.fullbanner-box .container .message h2 {
+  font-size: 1em;
+  font-weight: 400;
+}

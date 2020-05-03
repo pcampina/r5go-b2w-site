@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-red-color: #E60014;
+  --bg-banner-color: #EF6B11;
+}
+
+body {
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
