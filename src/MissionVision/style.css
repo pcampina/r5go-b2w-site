@@ -17,6 +17,13 @@ section.section .team .content-box .content {
   flex-direction: column;
 }
 
+@media screen and (max-width: 768px) {
+  section.section .team .content-box {
+    flex-flow: column;
+    padding: 0 20px;
+  }
+}
+
 section.section .team .content-box .content p {
   margin-bottom: 20px;
 }
