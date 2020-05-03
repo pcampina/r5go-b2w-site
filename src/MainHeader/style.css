@@ -7,6 +7,7 @@ header.main-header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 25px;
 }
 
 @media screen and (max-width: 768px) {
@@ -64,4 +65,29 @@ header.main-header .container ul li a:hover {
 
 header.main-header .container ul li:first-child {
   margin-left: 0;
+}
+
+header.main-header .container .menu {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  height: 0;
+  overflow: hidden;
+}
+
+header.main-header .container .menu.open {
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  header.main-header .container .menu {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+  }
 }
