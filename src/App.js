@@ -3,6 +3,7 @@ import React from "react";
 import MainHeader from "./MainHeader";
 import FullBanner from "./FullBanner";
 import Section from "./Section";
+import Team from "./Team";
 
 import AddToCartImage from "./assets/images/add-to-cart.svg";
 
@@ -63,6 +64,8 @@ function App() {
           solucionar problemas com a compra e/ou pós venda.
         </p>
       </Section>
+
+      <Team />
     </>
   );
 }

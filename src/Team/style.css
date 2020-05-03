@@ -1,0 +1,22 @@
+section.section .container.team {
+  flex-direction: column;
+}
+
+section.section .container.team h3 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+section.section .team .content-box {
+  display: flex;
+}
+
+section.section .team .content-box .content {
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+}
+
+section.section .team .content-box .content p {
+  margin-bottom: 20px;
+}
