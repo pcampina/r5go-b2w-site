@@ -4,6 +4,7 @@ import MainHeader from "./MainHeader";
 import FullBanner from "./FullBanner";
 import Section from "./Section";
 import Team from "./Team";
+import Footer from "./Footer";
 
 import AddToCartImage from "./assets/images/add-to-cart.svg";
 
@@ -66,6 +67,8 @@ function App() {
       </Section>
 
       <Team />
+
+      <Footer />
     </>
   );
 }

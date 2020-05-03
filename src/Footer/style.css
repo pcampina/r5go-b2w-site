@@ -1,0 +1,29 @@
+footer.main-footer {
+  display: flex;
+  background: black;
+  padding: 40px 0;
+}
+
+@media screen and (max-width: 768px) {
+  footer.main-footer {
+    padding: 20px;
+  }
+}
+
+footer.main-footer .container p {
+  color: white;
+}
+
+footer.main-footer .container p strong {
+  color: var(--main-red-color);
+}
+
+footer.main-footer .container p a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+footer.main-footer .container p a:hover {
+  text-decoration: underline;
+}
