@@ -5,7 +5,7 @@ import './style.css';
 function MissionVision() {
   return (
     <section className="section">
-      <div className="container team">
+      <div className="container mission-vision">
         <div className="content-box">
           <div className="content">
             <h3>Missão</h3>

@@ -1,0 +1,50 @@
+section.section .container.team {
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  section.section .team {
+    padding: 20px;
+  }
+}
+
+section.section .container.team h3 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+section.section .team .images ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section.section .team .images ul li {
+  margin-left: 60px;
+}
+
+section.section .team .images ul li:first-child {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  section.section .team .images ul li {
+    margin: 0 0 20px;
+  }
+}
+
+section.section .team .images ul li a img {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100%;
+  filter: grayscale();
+  transition: 0.3s;
+}
+
+section.section .team .images ul li a img:hover {
+  filter: grayscale(0);
+}

@@ -3,6 +3,7 @@ import React from "react";
 import MainHeader from "./MainHeader";
 import FullBanner from "./FullBanner";
 import Section from "./Section";
+import Team from './Team';
 import MissionVision from "./MissionVision";
 import Footer from "./Footer";
 
@@ -66,8 +67,8 @@ function App() {
         </p>
       </Section>
 
+      <Team />      
       <MissionVision />
-
       <Footer />
     </>
   );

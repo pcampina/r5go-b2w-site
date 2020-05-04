@@ -1,29 +1,30 @@
-section.section .container.team {
+section.section .container.mission-vision {
   flex-direction: column;
+  margin-bottom: 0;
 }
 
-section.section .container.team h3 {
+section.section .container.mission-vision h3 {
   font-size: 2em;
   margin-bottom: 1em;
 }
 
-section.section .team .content-box {
+section.section .mission-vision .content-box {
   display: flex;
 }
 
-section.section .team .content-box .content {
+section.section .mission-vision .content-box .content {
   display: flex;
   flex: 0.5;
   flex-direction: column;
 }
 
 @media screen and (max-width: 768px) {
-  section.section .team .content-box {
+  section.section .mission-vision .content-box {
     flex-flow: column;
     padding: 0 20px;
   }
 }
 
-section.section .team .content-box .content p {
+section.section .mission-vision .content-box .content p {
   margin-bottom: 20px;
 }
