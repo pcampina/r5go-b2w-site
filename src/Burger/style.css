@@ -1,5 +1,5 @@
 .burger {
-  width: 60px;
+  width: 45px;
   height: 45px;
   position: relative;
   -webkit-transform: rotate(0deg);
@@ -11,12 +11,13 @@
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   cursor: pointer;
+  margin-top: -8px;
 }
 
 .burger .line {
   display: block;
   position: absolute;
-  height: 9px;
+  height: 4px;
   width: 100%;
   background: white;
   border-radius: 9px;
@@ -37,11 +38,11 @@
 }
 
 .burger .line:nth-child(2) {
-  top: 18px;
+  top: 14px;
 }
 
 .burger .line:nth-child(3) {
-  top: 36px;
+  top: 28px;
 }
 
 .burger .line:nth-child(1) {
@@ -50,15 +51,15 @@
 
 .burger .line:nth-child(2),
 .burger .line:nth-child(3) {
-  top: 18px;
+  top: 14px;
 }
 
 .burger .line:nth-child(4) {
-  top: 36px;
+  top: 28px;
 }
 
 .burger.open .line:nth-child(1) {
-  top: 18px;
+  top: 14px;
   width: 0%;
   left: 50%;
 }
@@ -78,7 +79,7 @@
 }
 
 .burger.open .line:nth-child(4) {
-  top: 18px;
+  top: 14px;
   width: 0%;
   left: 50%;
 }

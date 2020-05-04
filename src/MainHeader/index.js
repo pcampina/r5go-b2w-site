@@ -9,8 +9,10 @@ const MainHeader = () => {
   return (
     <header className="main-header">
       <div className="container">
-        <Burger open={open} setOpen={setOpen} />
-        <img src={logo} alt="Rocket Five GO Scan" />
+        <div className="top-area">
+          <img src={logo} alt="Rocket Five GO Scan" />
+          <Burger open={open} setOpen={setOpen} />
+        </div>
 
         <ul className={`menu ${open ? "open" : ""}`}>
           <li>
