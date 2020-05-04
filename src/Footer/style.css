@@ -10,8 +10,38 @@ footer.main-footer {
   }
 }
 
+footer.main-footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  footer.main-footer .container {
+    flex-direction: column;
+  }
+
+  footer.main-footer .container .github-links {
+    margin-top: 20px;
+  }
+}
+
+footer.main-footer .container .github-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer.main-footer .container .github-links p {
+  margin-left: 10px;
+}
+
+footer.main-footer .container .github-links p:first {
+  margin-left: 0;
+}
+
 footer.main-footer .container p {
   color: white;
+  text-align: center;
 }
 
 footer.main-footer .container p strong {
