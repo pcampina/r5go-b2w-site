@@ -7,8 +7,8 @@ function FullBanner() {
     <section className="fullbanner-box">
       <div className="container">
         <div className="message">
-          <h1>R5 GO Scan</h1>
-          <h2>Escaneie e receba seu produto em casa</h2>
+          <h1>GO Scan</h1>
+          <h2>Compras inteligentes e atendimento que você merece</h2>
         </div>
       </div>
     </section>

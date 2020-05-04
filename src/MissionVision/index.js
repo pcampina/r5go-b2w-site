@@ -2,9 +2,9 @@ import React from 'react';
 
 import './style.css';
 
-function MissionVision() {
+function MissionVision({ id }) {
   return (
-    <section className="section">
+    <section className="section" id={id}>
       <div className="container mission-vision">
         <div className="content-box">
           <div className="content">

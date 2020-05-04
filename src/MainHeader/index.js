@@ -14,16 +14,21 @@ const MainHeader = () => {
 
         <ul className={`menu ${open ? "open" : ""}`}>
           <li>
-            <a href="/">Ínicio</a>
+            <a href="/#">Ínicio</a>
           </li>
           <li>
-            <a href="/">Sobre</a>
+            <a href="#goscan">Go Scan</a>
           </li>
           <li>
-            <a href="/">Funcionalidades</a>
+            <a href="#gobot">Go Bot</a>
           </li>
+
           <li>
-            <a href="/">Parceiros</a>
+            <a href="#team">Time</a>
+          </li>
+
+          <li>
+            <a href="#mission">Missão e Visão</a>
           </li>
         </ul>
       </div>

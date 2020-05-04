@@ -2,9 +2,9 @@ import React from 'react';
 
 import './style.css';
 
-const Section = ({ img, title, children, reverse }) => {
+const Section = ({ img, title, children, reverse, id }) => {
   return (
-    <section className="section">
+    <section className="section" id={id}>
       <div className={`container ${reverse ? "reverse" : ""}`}>
         <div className="image">
           <img src={img} alt="" />

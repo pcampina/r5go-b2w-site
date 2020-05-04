@@ -7,9 +7,9 @@ import ToshiukImage from '../assets/images/toshiuk.png';
 
 import './style.css';
 
-function Team() {
+function Team({ id }) {
   return (
-    <section className="section">
+    <section className="section" id={id}>
       <div className="container team">
         <h3>Time</h3>
         
